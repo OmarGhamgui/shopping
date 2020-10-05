@@ -74,7 +74,7 @@ header > h1 {
 .delete-btn {
   width: 18px;
   height: 17px;
-  background: url("/GoMyCode/shoppingcart/res/delete-icn.svg") no-repeat center;
+  background: url('../res/delete-icn.svg') no-repeat center  ;
 }
 .description {
   width: 300px;
@@ -85,7 +85,7 @@ header > h1 {
   position: absolute;
   top: 9px;
   left: 15px;
-  background: url("/GoMyCode/shoppingcart/res/twitter-heart.png");
+  background: url('../res/twitter-heart.png');
   width: 60px;
   height: 60px;
   background-size: 2900%;
