@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shopping Cart</title>
+  </head>
+  <body>
+    <header>
+      <h1>Flower Best Sellers</h1>
+    </header>
+    <div class="shopping-cart">
+      <!-- Title -->
+      <div class="title">Shopping Bag</div>
+
+      <div class="item">
+        <div class="buttons">
+          <span class="delete-btn" onclick="removeitem()"></span>
+          <span class="like-btn" onclick="changeimg()"></span>
+        </div>
+
+        <div class="image">
+          <img
+            src="https://s7img.ftdi.com/is/image/ProvideCommerce/B5354D_LOL?$proflowers-hero-lv-new$&qlt=80,0&resMode=trilin"
+            alt=""
+            width="260"
+          />
+        </div>
+
+        <div class="description">
+          <span>Warmer Amber Bouquet</span>
+        </div>
+
+        <div class="quantity">
+          <button class="plus-btn"  type="button" name="button">
+            <img src="./res/plus.svg" alt="" />
+          </button>
+          <input
+            class="inputclass"
+            type="text"
+            name="name"
+            value="0"
+            size="1"
+          />
+          <button class="minus-btn"  type="button" name="button">
+            <img src="./res/minus.svg" alt="" />
+          </button>
+        </div>
+
+        <div class="prixtotal">$ <span class="total-price">0</span></div>
+      </div>
+      <div class="item">
+        <div class="buttons">
+          <span class="delete-btn" onclick="removeitem()"></span>
+          <span class="like-btn" onclick="changeimg()"></span>
+        </div>
+
+        <div class="image">
+          <img
+            src="https://s7img.ftdi.com/is/image/ProvideCommerce/F492_LOL?$proflowers-hero-lv-new$&qlt=80,0&resMode=trilin"
+            alt=""
+            width="260"
+          />
+        </div>
+
+        <div class="description">
+          <span>Mixed Roses with Vase </span>
+        </div>
+
+        <div class="quantity">
+          <button class="plus-btn"  type="button" name="button">
+            <img src="./res/plus.svg" alt="" />
+          </button>
+          <input
+            class="inputclass"
+            type="text"
+            name="name"
+            value="0"
+            size="1"
+          />
+          <button class="minus-btn"  type="button" name="button">
+            <img src="./res/minus.svg" alt="" />
+          </button>
+        </div>
+
+        <div class="prixtotal">$ <span class="total-price">0</span></div>
+      </div>
+      <div class="item">
+        <div class="buttons">
+          <span class="delete-btn" onclick="removeitem()"></span>
+          <span class="like-btn" onclick="changeimg()"></span>
+        </div>
+
+        <div class="image">
+          <img
+            src="https://s7img.ftdi.com/is/image/ProvideCommerce/30007597_40237_LOL?$proflowers-hero-lv-new$&qlt=80,0&resMode=trilin"
+            alt=""
+            width="260"
+          />
+        </div>
+
+        <div class="description">
+          <span>Deluxe Smiles & Sunshine </span>
+        </div>
+
+        <div class="quantity">
+          <button class="plus-btn"  type="button" name="button">
+            <img src="./res/plus.svg" alt="" />
+          </button>
+          <input
+            class="inputclass"
+            type="text"
+            name="name"
+            value="0"
+            size="1"
+          />
+          <button
+            class="minus-btn"
+            type="button"
+            name="button"
+          >
+            <img src="./res/minus.svg" alt="" />
+          </button>
+        </div>
+
+        <div class="prixtotal">$ <span class="total-price">0</span></div>
+      </div>
+    </div>
+    <div class="carttotal">
+      <div class="carttotalitem">
+        <h2>
+          Cart Total : <br />
+          $<span class="carttotalprice">0</span>
+        </h2>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

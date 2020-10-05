@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-image: url(https://s7img.ftdi.com/is/image/ProvideCommerce/PF_18_B239_A613_R212_FLORAL_BS_SUMMER_V1_PF_SITE_PLP_BANNER?$proflowers-product-banner-lv$&qlt=80,0&resMode=trilin);
+  background-size: 100% 800px;
+  background-repeat: no-repeat;
+}
+header > h1 {
+  padding: 200px 25%;
+  width: 100%;
+  font-size: 80px;
+  color: white;
+}
+
+.shopping-cart {
+  width: 70%;
+  height: 100%;
+  margin: 80px auto;
+  background: #ffffff;
+  box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  height: 60px;
+  border-bottom: 1px solid #e1e8ee;
+  padding: 20px 30px;
+  color: #5e6977;
+  font-size: 18px;
+  font-weight: 400;
+}
+.item {
+  border-bottom: 1px solid #e1e8ee;
+
+  padding: 20px 30px;
+  height: 20%;
+  display: flex;
+  margin-top: 1%;
+}
+.prixtotal {
+  display: flex;
+  width: 70px;
+  height: 20px;
+  margin: auto;
+}
+.quantity {
+  width: 5%;
+  height: 30%;
+  margin: auto 7%;
+  display: flex;
+}
+.total-price {
+  display: flex;
+}
+
+.buttons {
+  position: relative;
+  padding-top: 30px;
+  margin-right: 60px;
+}
+.delete-btn,
+.like-btn {
+  display: inline-block;
+  cursor: pointer;
+  margin: auto 50px;
+}
+.delete-btn {
+  width: 18px;
+  height: 17px;
+  background: url("/GoMyCode/shoppingcart/res/delete-icn.svg") no-repeat center;
+}
+.description {
+  width: 300px;
+  margin: auto 50px;
+  font-size: 20px;
+}
+.like-btn {
+  position: absolute;
+  top: 9px;
+  left: 15px;
+  background: url("/GoMyCode/shoppingcart/res/twitter-heart.png");
+  width: 60px;
+  height: 60px;
+  background-size: 2900%;
+  background-repeat: no-repeat;
+}
+.total-price {
+  float: right;
+  margin: auto;
+}
+.carttotal{display: flex;
+justify-content: flex-end;
+
+}
+.carttotalitem{width: 200px;
+  margin-right: 15%;
+  display: flex;
+  font-size: 25px;
+  font-style: oblique;
+  color: #be947b;
+  text-align: right;
+}
