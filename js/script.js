@@ -1,5 +1,3 @@
-var i;
-var price1 = [40, 65, 80];
 updatecarttotal = () => {
   var total = 0;
   for (i = 0; i < document.getElementsByClassName("total-price").length; i++) {
@@ -33,7 +31,8 @@ for (let i = 0; i < plus.length; i++) {
     quantityelement.nextElementSibling.getElementsByClassName(
       "total-price"
     )[0].innerHTML =
-      quantityelement.getElementsByClassName("inputclass")[0].value * 50;
+      quantityelement.getElementsByClassName("inputclass")[0].value *
+      +quantityelement.getElementsByClassName("inputclass")[0].name;
     updatecarttotal();
   });
 }
@@ -50,7 +49,8 @@ for (let i = 0; i < plus.length; i++) {
       quantityelement.nextElementSibling.getElementsByClassName(
         "total-price"
       )[0].innerHTML =
-        quantityelement.getElementsByClassName("inputclass")[0].value * 50;
+        quantityelement.getElementsByClassName("inputclass")[0].value *
+        +quantityelement.getElementsByClassName("inputclass")[0].name;
       updatecarttotal();
     }
   });
@@ -60,11 +60,10 @@ for (var i = 0; i < likebutton.length; i++) {
   var clicks = 0;
   var like = likebutton[i];
   like.addEventListener("click", (e) => {
+    var likebuttonclicked = e.target;
     if (clicks % 2 == 0) {
-      var likebuttonclicked = e.target;
       likebuttonclicked.style.backgroundPositionX = "85.7%";
     } else {
-      var likebuttonclicked = e.target;
       likebuttonclicked.style.backgroundPositionX = "0%";
     }
     clicks = clicks + 1;
