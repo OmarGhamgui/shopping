@@ -110,11 +110,12 @@ header > h1 {
   justify-content: flex-end;
   margin-top: 0px;
   font-family: 'Open Sans Condensed', sans-serif;
+  height: auto;
 
 }
 .carttotalitem {
-  width: 200px;
-  height: 100px;
+  width: 220px;
+  height: 120px;
   align-items: center;
   margin-right: 15%;
   display: flex;
@@ -124,6 +125,11 @@ header > h1 {
   text-align: center;
   border-radius: 4px;
   border: #d5edfe solid 1px;
-  background:#d5edfe;
+  background:#9ea7bb;
+
+}
+.page-footer{margin-top: 50px;
+background: #9ea7bb;
+
 
 }
